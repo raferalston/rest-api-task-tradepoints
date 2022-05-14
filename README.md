@@ -53,6 +53,12 @@
             POST
         </td>
         <td>
+        <ul>
+  <li>First item</li>
+  <li>Second item</li>
+  <li>Third item</li>
+  <li>Fourth item</li>
+</ul>
             - phone : 123
             - trade_point : 1
             - latitude : 1.0
