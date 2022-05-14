@@ -53,19 +53,15 @@
             POST
         </td>
         <td>
-        <ul>
-  <li>First item</li>
-  <li>Second item</li>
-  <li>Third item</li>
-  <li>Fourth item</li>
-</ul>
-            - phone : 123
-            - trade_point : 1
-            - latitude : 1.0
-            - longitude : 1.0
+            <ul>
+                <li>phone : 123</li>
+                <li>trade_point : 1</li>
+                <li>latitude : 1.0</li>
+                <li>longitude : 1.0</li>
+            </ul>
         </td>
         <td>
-            List of all tradepoints with basic permission. Need to send phone param
+            Add new visit to a trade point
         </td>
     </tr>
 <table>
