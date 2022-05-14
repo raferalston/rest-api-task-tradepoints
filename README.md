@@ -5,7 +5,7 @@
 - py -m venv env
 - env\Scripts\activate
 - pip install -r requirements.txt
-- generate(https://djecrety.ir/) secret key and put it in config/SECRET
+- generate (https://djecrety.ir/) secret key and put it in config/SECRET
 - use postgresql as database
 - create db with name: delivery-db (or fill specific fields in setting)
 - user: postgres
