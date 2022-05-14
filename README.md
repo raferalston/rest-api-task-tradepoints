@@ -60,7 +60,7 @@
             </ul>
         </td>
         <td>
-            Add new visit to a trade point
+            Add new visit to a trade point. Only if worker attached to that trade point
         </td>
     </tr>
     <tr>
@@ -160,7 +160,7 @@
             </ul>
         </td>
         <td>
-            Retrieve trade point
+            Retrieve trade point by name
         </td>
     </tr>
     <tr>
