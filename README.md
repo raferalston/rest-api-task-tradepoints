@@ -1,4 +1,19 @@
 # REST-API for delivery products to shops
+## how to install 
+- py -m env venv
+- env\Scripts\activate
+- clone this repo
+- pip install -r requirements.txt
+- generate(https://djecrety.ir/) secret key and put it in config/SECRET
+- use postgresql as database
+- create db with name: delivery-db (or fill specific fields in setting)
+- user: postgres
+- password: admin
+- host: localhost
+- port: 5432
+
+
+## how to use
 
 <table>
     <caption>Basic API instructions</caption>
