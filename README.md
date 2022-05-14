@@ -1,6 +1,7 @@
 # REST-API for delivery products to shops
 ## how to install 
-- py -m env venv
+- cd rest-api-task-tradepoints
+- py -m venv env
 - env\Scripts\activate
 - clone this repo
 - pip install -r requirements.txt
