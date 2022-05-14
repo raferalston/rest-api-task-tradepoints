@@ -53,38 +53,10 @@
             POST
         </td>
         <td>
-            <table>
-                <tr>
-                    Key
-                </tr>
-                <tr>
-                    Value example
-                </tr>
-                <tr>
-                    phone
-                </tr>
-                <tr>
-                    123
-                </tr>
-                <tr>
-                    trade_point
-                </tr>
-                <tr>
-                    3
-                </tr>
-                <tr>
-                    latitude
-                </tr>
-                <tr>
-                    1.0
-                </tr>
-                <tr>
-                    longitude
-                </tr>
-                <tr>
-                    1.0
-                </tr>
-            </table>
+            - phone : 123
+            - trade_point : 1
+            - latitude : 1.0
+            - longitude : 1.0
         </td>
         <td>
             List of all tradepoints with basic permission. Need to send phone param
