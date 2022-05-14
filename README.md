@@ -12,6 +12,12 @@
 - password: admin
 - host: localhost
 - port: 5432
+- cd delivery-application
+- py manage.py makemigrations
+- py manage.py migrate
+- py manage.py populate_db
+- py manage.py runserver
+- Entrypoint localhost/api
 
 
 ## how to use
