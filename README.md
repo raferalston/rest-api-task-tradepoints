@@ -30,7 +30,7 @@
             Entry point for basic api
         </td>
     </tr>
-        <tr>
+    <tr>
         <td>
             /api/tradepoints
         </td>
@@ -44,8 +44,7 @@
             List of all tradepoints with basic permission. Need to send phone param
         </td>
     </tr>
-        </tr>
-        <tr>
+    <tr>
         <td>
             /api/visit-trade-point
         </td>
@@ -62,6 +61,175 @@
         </td>
         <td>
             Add new visit to a trade point
+        </td>
+    </tr>
+    <tr>
+        <td>
+            /api/admin/workers
+        </td>
+        <td>
+            GET, POST, HEAD, OPTIONS
+        </td>
+        <td>
+            <ul>
+                <li>name : foo</li>
+                <li>phone : 123</li>
+            </ul>
+        </td>
+        <td>
+            Create or Retrieve worker
+        </td>
+    </tr>
+    <tr>
+        <td>
+            /api/admin/workers/<int:pk>
+        </td>
+        <td>
+            GET, PUT, PATCH, DELETE, HEAD, OPTIONS
+        </td>
+        <td>
+            <ul>
+                <li>name : foo</li>
+                <li>phone : 123</li>
+            </ul>
+        </td>
+        <td>
+            CRUD for worker
+        </td>
+    </tr>
+    <tr>
+        <td>
+            /api/admin/workers/search/<name>
+        </td>
+        <td>
+            GET, HEAD, OPTIONS
+        </td>
+        <td>
+            <ul>
+                <li>name</li>
+            </ul>
+        </td>
+        <td>
+            Retrieve worker
+        </td>
+    </tr>
+    <tr>
+        <td>
+            /api/admin/tradepoints
+        </td>
+        <td>
+            GET, POST, HEAD, OPTIONS
+        </td>
+        <td>
+            <ul>
+                <li>name : foo</li>
+                <li>worker : 1 (id)</li>
+            </ul>
+        </td>
+        <td>
+            Create or Retrieve trade point
+        </td>
+    </tr>
+    <tr>
+        <td>
+            /api/admin/tradepoints/<int:pk>
+        </td>
+        <td>
+            GET, PUT, PATCH, DELETE, HEAD, OPTIONS
+        </td>
+        <td>
+            <ul>
+                <li>name : foo</li>
+                <li>worker : 1 (id)</li>
+            </ul>
+        </td>
+        <td>
+            CRUD for trade point
+        </td>
+    </tr>
+    <tr>
+        <td>
+            /api/admin/tradepoints/search/<name>
+        </td>
+        <td>
+            GET, HEAD, OPTIONS
+        </td>
+        <td>
+            <ul>
+                <li>name : foo</li>
+            </ul>
+        </td>
+        <td>
+            Retrieve trade point
+        </td>
+    </tr>
+    <tr>
+        <td>
+            /api/admin/visits
+        </td>
+        <td>
+            GET, HEAD, OPTIONS
+        </td>
+        <td>
+        </td>
+        <td>
+            Retrieve visits
+        </td>
+    </tr>
+    <tr>
+        <td>
+            /api/admin/visits/<int:pk>
+        </td>
+        <td>
+            GET, HEAD, OPTIONS
+        </td>
+        <td>
+        </td>
+        <td>
+            Retrieve visits by id
+        </td>
+    </tr>
+    <tr>
+        <td>
+            /api/admin/visits/tradepoint-search/<tradepoint>
+        </td>
+        <td>
+            GET, HEAD, OPTIONS
+        </td>
+        <td>
+            <li>tradepoint : foo</li>
+        </td>
+        <td>
+            Retrieve visits by name
+        </td>
+    </tr>
+    <tr>
+        <td>
+            /api/admin/visits/worker-search/<worker>
+        </td>
+        <td>
+            GET, HEAD, OPTIONS
+        </td>
+        <td>
+            <li>worker : foo</li>
+        </td>
+        <td>
+            Retrieve visits by worker name
+        </td>
+    </tr>
+    <tr>
+        <td>
+            /api/admin/visits/search/<worker>
+        </td>
+        <td>
+            GET, HEAD, OPTIONS
+        </td>
+        <td>
+            <li>?worker=[name] : foo</li>
+            <li>?tradepoint=[name] : foo</li>
+        </td>
+        <td>
+            Retrieve visits by worker name or tradepoint name with url params
         </td>
     </tr>
 <table>
