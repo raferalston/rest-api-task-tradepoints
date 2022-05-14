@@ -82,7 +82,7 @@
     </tr>
     <tr>
         <td>
-            /api/admin/workers/<int:pk>
+            /api/admin/workers/\<int:pk\>
         </td>
         <td>
             GET, PUT, PATCH, DELETE, HEAD, OPTIONS
@@ -99,7 +99,7 @@
     </tr>
     <tr>
         <td>
-            /api/admin/workers/search/<name>
+            /api/admin/workers/search/\<name\>
         </td>
         <td>
             GET, HEAD, OPTIONS
@@ -132,7 +132,7 @@
     </tr>
     <tr>
         <td>
-            /api/admin/tradepoints/<int:pk>
+            /api/admin/tradepoints/\<int:pk\>
         </td>
         <td>
             GET, PUT, PATCH, DELETE, HEAD, OPTIONS
@@ -149,7 +149,7 @@
     </tr>
     <tr>
         <td>
-            /api/admin/tradepoints/search/<name>
+            /api/admin/tradepoints/search/\<name\>
         </td>
         <td>
             GET, HEAD, OPTIONS
@@ -178,7 +178,7 @@
     </tr>
     <tr>
         <td>
-            /api/admin/visits/<int:pk>
+            /api/admin/visits/\<int:pk\>
         </td>
         <td>
             GET, HEAD, OPTIONS
@@ -191,7 +191,7 @@
     </tr>
     <tr>
         <td>
-            /api/admin/visits/tradepoint-search/<tradepoint>
+            /api/admin/visits/tradepoint-search/\<tradepoint\>
         </td>
         <td>
             GET, HEAD, OPTIONS
@@ -205,7 +205,7 @@
     </tr>
     <tr>
         <td>
-            /api/admin/visits/worker-search/<worker>
+            /api/admin/visits/worker-search/\<worker\>
         </td>
         <td>
             GET, HEAD, OPTIONS
@@ -219,7 +219,7 @@
     </tr>
     <tr>
         <td>
-            /api/admin/visits/search/<worker>
+            /api/admin/visits/search/\<worker\>
         </td>
         <td>
             GET, HEAD, OPTIONS
