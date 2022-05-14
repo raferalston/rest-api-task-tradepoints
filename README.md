@@ -1,7 +1,19 @@
 # REST-API for delivery products to shops
 
-| Reference | Method | Params | Purpose |
-| /api | GET | None | Entry point for basic api |
+<table>
+    <tr>
+        <td>
+            /api
+        </td>
+        <td>
+            GET
+        </td>
+        <td>
+            None
+        </td>
+        <td>
+            Entry point for basic api
+        </td>
+    </tr>
+<table>
 
-	| Syntax | Description |
-| ----------- | ----------- |
