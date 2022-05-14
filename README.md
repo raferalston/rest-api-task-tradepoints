@@ -1,9 +1,9 @@
 # REST-API for delivery products to shops
 ## how to install 
+- clone this repo
 - cd rest-api-task-tradepoints
 - py -m venv env
 - env\Scripts\activate
-- clone this repo
 - pip install -r requirements.txt
 - generate(https://djecrety.ir/) secret key and put it in config/SECRET
 - use postgresql as database
