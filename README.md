@@ -1,4 +1,7 @@
 # REST-API for delivery products to shops
+## Notes
+Некоторые решения не оптимальны (поиск в разных категориях) и могут быть вынесены в отдельный миксин. Так же я не успел сделать fbv.  
+
 ## how to install 
 - clone this repo
 - cd rest-api-task-tradepoints
